@@ -1,0 +1,24 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "cypress:run": "cypress run --config-file cypress.config.ts",
+    "test": "cypress run --config-file cypress.config.ts",
+    "start": "echo 'No start script specified. Update this if you need to start a local server.'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "@types/cypress": "^0.1.6",
+    "@types/jest": "^29.5.13",
+    "@types/mocha": "^10.0.8",
+    "cypress": "^13.14.2",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
+}
